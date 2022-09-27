@@ -1,0 +1,17 @@
+---
+MainSourceFile:  /home/student/labex02-michaelkenokolo/prob01/main.cpp
+Diagnostics:     
+  - DiagnosticName:  llvm-include-order
+    Message:         '#includes are not sorted properly'
+    FileOffset:      125
+    FilePath:        main.cpp
+    Replacements:    
+      - FilePath:        main.cpp
+        Offset:          134
+        Length:          10
+        ReplacementText: '<iomanip>'
+      - FilePath:        main.cpp
+        Offset:          154
+        Length:          9
+        ReplacementText: '<iostream>'
+...

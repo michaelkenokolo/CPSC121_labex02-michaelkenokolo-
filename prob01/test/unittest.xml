@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" timestamp="2019-03-19T10:18:31" time="0.113" name="AllTests">
+  <testsuite name="Restaurant" tests="5" failures="0" disabled="0" errors="0" time="0.113">
+    <testcase name="OutputFormat" status="run" time="0.002" classname="Restaurant" />
+    <testcase name="MealCost" status="run" time="0.017" classname="Restaurant" />
+    <testcase name="Taxes" status="run" time="0.019" classname="Restaurant" />
+    <testcase name="Tip" status="run" time="0.037" classname="Restaurant" />
+    <testcase name="Total" status="run" time="0.037" classname="Restaurant" />
+  </testsuite>
+</testsuites>
